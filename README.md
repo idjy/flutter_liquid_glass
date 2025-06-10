@@ -12,6 +12,7 @@ I'd like to layout each individual concept such that it can be implemented incre
   - [ ] Gyroscope changes light angle
   - [ ] prismatic edges 
   - [ ] Distortion of layer below
+  - [ ] reflections of nearby content
         
   <img src="https://github.com/user-attachments/assets/0ffb0f8c-ad8a-4a35-90d8-6b1d7e9f3bb0" width="300"/>
 - [ ] Blurring
