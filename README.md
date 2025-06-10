@@ -10,7 +10,7 @@ I'd like to layout each individual concept such that it can be implemented incre
   - [ ] Gyroscope changes light angle
   - [ ] prismatic edges 
   - [ ] Distortion of layer below
-      ![Screenshot 2025-06-10 at 12 00 53 PM](https://github.com/user-attachments/assets/0ffb0f8c-ad8a-4a35-90d8-6b1d7e9f3bb0)
+        <img src="https://github.com/user-attachments/assets/0ffb0f8c-ad8a-4a35-90d8-6b1d7e9f3bb0" width="200"/>
 - [ ] Blurring
 - [ ] Scale transitioning
 - [ ] Color transition from transparent glass to solid color
