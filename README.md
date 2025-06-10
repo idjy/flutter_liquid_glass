@@ -29,6 +29,7 @@ Parameter ideas
 - [ ] child widget
 - [ ] borderRadius
 - [ ] frostStrength
+- [ ] appears to have a baseColor and animates between (its not simply changing immediately with the background layer)
 
 
 If you need my immediate attention message me on [X](https://x.com/All4nDev)
