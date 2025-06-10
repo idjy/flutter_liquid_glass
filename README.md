@@ -8,6 +8,9 @@ I'd like to layout each individual concept such that it can be implemented incre
 
 - [ ] Light Refraction - [Refraction in JS](https://www.youtube.com/watch?v=1LGa50gncgg)
   - [ ] Gyroscope changes light angle
+  - [ ] prismatic edges 
+  - [ ] Distortion of layer below
+      ![Screenshot 2025-06-10 at 12 00 53 PM](https://github.com/user-attachments/assets/0ffb0f8c-ad8a-4a35-90d8-6b1d7e9f3bb0)
 - [ ] Blurring
 - [ ] Scale transitioning
 - [ ] Color transition from transparent glass to solid color
