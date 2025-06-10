@@ -17,6 +17,12 @@ I'd like to layout each individual concept such that it can be implemented incre
 - [ ] Blurring
 - [ ] Scale transitioning
 - [ ] Color transition from transparent glass to solid color
+- [ ] energizing touch
+- [ ] Gel touch&drag
+
+<img src="https://github.com/user-attachments/assets/1c32e8a3-f766-424b-823b-f7d970222f42" width="300"/>
+
+
 - [ ] Nuemorphic like effects - these are typically easily done with clever use of inner and outer shadows. putting a lighter inner shadow color facing the light source, and a shadow on the opposite side you get a convex button. Inverting the shadows gives you concave(button press)
 - [ ] Gooey Liquid / Surface tension pull effect. Save this for last as i dont think its all that important.
 
