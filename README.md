@@ -1,5 +1,5 @@
 # flutter_liquid_glass
-attempt at implementing liquid glass specifications in flutter
+attempt at implementing liquid glass specifications in flutter and turning it into a pub package for use in other's projects
 
 Since this is a work in progress, its important to first start with laying out the target and providing resources so that others can contribute. We can assume theres going to be math involved, and possible a need to write custom shaders.
 I'd like to layout each individual concept such that it can be implemented incrementally with clear goals. 
@@ -25,3 +25,6 @@ Parameter ideas
 - [ ] blurStrength
 - [ ] child widget
 - [ ] borderRadius
+
+
+If you need my immediate attention message me on [X](https://x.com/All4nDev)
