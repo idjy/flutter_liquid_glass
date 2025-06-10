@@ -28,8 +28,9 @@ Parameter ideas
 - [ ] blurStrength
 - [ ] child widget
 - [ ] borderRadius
-- [ ] frostStrength
+- [ ] frostStrength appears to also determine degree of refraction
 - [ ] appears to have a baseColor and animates between (its not simply changing immediately with the background layer)
+- [ ] bezelWidth
 
 
 If you need my immediate attention message me on [X](https://x.com/All4nDev)
