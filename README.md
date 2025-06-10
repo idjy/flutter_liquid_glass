@@ -28,6 +28,7 @@ Parameter ideas
 - [ ] blurStrength
 - [ ] child widget
 - [ ] borderRadius
+- [ ] frostStrength
 
 
 If you need my immediate attention message me on [X](https://x.com/All4nDev)
