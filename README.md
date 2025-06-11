@@ -13,6 +13,7 @@ I'd like to layout each individual concept such that it can be implemented incre
   - [ ] prismatic edges 
   - [ ] Distortion of layer below
   - [ ] reflections of nearby content
+  - [ ] caustics(could probably use water caustics type code, which if i remeber correctly can just be a texture png with perlin noise)
         
   <img src="https://github.com/user-attachments/assets/0ffb0f8c-ad8a-4a35-90d8-6b1d7e9f3bb0" width="300"/>
 - [ ] Blurring
