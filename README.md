@@ -4,10 +4,14 @@ attempt at implementing liquid glass specifications in flutter and turning it in
 Since this is a work in progress, its important to first start with laying out the target and providing resources so that others can contribute. We can assume theres going to be math involved, and possible a need to write custom shaders.
 I'd like to layout each individual concept such that it can be implemented incrementally with clear goals. 
 
+My theory is that the core can be accomplished in 2 main steps -> get the background layer to the shader, and implement the shader rendering.
+
+I've been experimenting and have achieved step 1 via BackdropFilter with imagefilter.shader - which appears to pass the image data to the shader automatically! Huge win. heres what that looks like so far:
+
+<img src="https://github.com/user-attachments/assets/064b15a6-1d48-48f1-a4e3-a36802ff50ff" alt="Image" width="400">
 
 
-### To-Do  (provide examples)
-
+### To-Do  
 - [ ] Light Refraction - [Refraction in JS](https://www.youtube.com/watch?v=1LGa50gncgg)
   - [ ] Gyroscope changes light angle
   - [ ] prismatic edges 
